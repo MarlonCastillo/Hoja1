@@ -6,7 +6,7 @@ public interface Radio{
     
     public int getAMFM();
     
-    public void setAMFM(int banda);
+    public void setAMFM(int banda);//1 FM y AM
     
     public void sintonizar(boolean ud);
     
@@ -14,6 +14,6 @@ public interface Radio{
     
     public void memoria(int pos);
     
-    public float getEmisora();
+    public double getEmisora();
 
 }
